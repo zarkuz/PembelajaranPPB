@@ -10,10 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutingTutorial">
         <activity
-            android:name=".FragmentUjiActivity"
+            android:name=".TutorialFragmentActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".ExplicitBundleIntentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ExplicitIntentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +27,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".FragmentUjiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
