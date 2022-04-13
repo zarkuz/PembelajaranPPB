@@ -10,8 +10,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val btnR3 = btn_r3
-        btnR3.setOnClickListener {
-            startActivity(Intent(this, FragmentUjiActivity::class.java))
-        }
     }
 }

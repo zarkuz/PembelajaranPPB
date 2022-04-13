@@ -3,18 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".TutorialFragment.TutorialTerimaFragment"
+    tools:context=".tutorialfragment.FragmentTutorialTerima"
     android:orientation="vertical"
     android:gravity="center">
 
+    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_ftt_terima"/>
+        android:id="@+id/ftt_tv_teksku"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_ftt_back"
-        android:text="Back"/>
+        android:id="@+id/ftt_btn_kembali"
+        android:text="Kembali"/>
 
 </LinearLayout>

@@ -19,9 +19,10 @@ class HomeActivity : AppCompatActivity() {
         val button_fragment: Button = findViewById(R.id.btn_fragment)
 
         button_fragment.setOnClickListener {
-            val intent = Intent(this, TutorialFragmentActivity::class.java)
+            val intent = Intent(this, FragmentTutorialActivity::class.java)
             startActivity(intent)
         }
+
         button_explicit.setOnClickListener {
             val intent = Intent(this, ExplicitIntentActivity::class.java)
             intent.putExtra("value_nama", edit_nama.text.toString())

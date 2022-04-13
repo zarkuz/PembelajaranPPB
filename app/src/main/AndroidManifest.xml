@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutingTutorial">
         <activity
-            android:name=".TutorialFragmentActivity"
+            android:name=".FragmentTutorialActivity"
             android:exported="false" />
         <activity
             android:name=".ExplicitBundleIntentActivity"
@@ -27,9 +27,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".FragmentUjiActivity"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
