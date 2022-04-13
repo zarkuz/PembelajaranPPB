@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LayoutingTutorial">
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
             android:name=".FragmentTutorialActivity"
             android:exported="false" />
         <activity
